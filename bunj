@@ -18,7 +18,6 @@ timesup db 10, "Time's up!", 10
 len_timesup equ $ - timesup 
 
 ts dq 1,0 
-ts_short dq 0,200000000 
 
 section .bss 
 choice resb 2 
